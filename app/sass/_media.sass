@@ -1,0 +1,985 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1940px)
+	.company_in_numbers
+		background-size: cover
+	
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1780px)
+	.container
+		padding: 0 80px
+	.logo
+		img
+			max-width: 89px
+		p
+			font-size: 10px
+			line-height: 18px
+			margin-left: 16px
+	.menu
+		li
+			margin-right: 24px
+	.slider
+		padding: 110px 0 60px
+
+
+@media only screen and (max-width : 1366px)
+	.menu
+		& > ul li a
+			font-size: 14px	
+	.slider
+		padding: 94px 0 60px
+		background: center bottom no-repeat url(../img/img/bg_header_index_1366.svg),  linear-gradient(65.35deg, #1E4ED1 0%, #2961D2 100%)
+		h1
+			font-size: 38px
+			line-height: 48px
+		p
+			font-size: 18px
+			line-height: 28px
+		.button
+			font-size: 12px
+			padding: 20px 36px
+			margin: 40px 0 100px
+		.socials
+			a img
+				max-width: 20px
+	
+	.services
+		padding-top: 40px
+		&__content
+			margin-top: 28px
+		&__item .img
+			min-height: 260px
+			background-size: 382px
+			
+	.industry
+		padding-top: 60px
+		&__content
+			margin-top: 28px
+		&__item
+			margin-right: 20px
+			.img
+				min-height: 210px
+				background-size: 286px
+	
+	.benefits
+		padding: 60px 0 80px
+		&__item
+			margin-top: 50px
+			max-width: 31.0%
+	
+	.company_in_numbers
+		&__content
+			padding: 0
+	
+	.partners
+		padding: 80px 0
+		&__item
+			margin-top: 50px
+			width: 8.78%
+			margin-right: 17.7%
+			&:nth-child(6n + 6)
+				margin-right: 17.7%
+			&:nth-child(4n + 4)
+				margin-right: 0
+	
+	.last_news
+		&__content
+			margin-top: 38px
+		&__item
+			width: 33%
+			&:last-child
+				display: none
+			.img
+				background-size: cover
+	
+	.company_info
+		padding: 80px 0
+		&__img img
+			max-width: 486px
+	
+	.callback
+		&__formstack
+			.name, .email, .phone, .butt
+				width: 25%
+			.name, .email, .phone,
+				margin-right: 20px
+			button
+				width: 100%
+	.footer
+		&__nav
+			display: flex
+			justify-content: space-between
+			ul
+				margin-left: 3.2%
+				margin-right: 0
+				&:first-child
+					margin-left: 0
+		.socials
+			a img
+				max-width: 20px
+	
+	#callback_popup, #free_consultation_popup
+		.form_content
+			padding: 40px 60px 60px 60px
+	
+	.nav_services_and_solution
+		padding: 40px 0 30px
+		&__item
+			.img
+				min-height: 260px
+				background-size: 400px
+			h3
+				font-size: 20px
+				line-height: 28px
+			li a
+				font-size: 18px
+			li
+				margin-top: 14px
+		
+		
+	#services_and_solutions
+		.industry
+			padding: 30px 0 
+		.clients
+			padding: 30px 0 80px
+	
+	.infrastructure_services
+		.img
+			background-size: 286px
+			min-height: 211px
+	
+	.infrastructure_services
+		padding: 60px 0 80px
+	
+	#infrastructure_solutions
+		.header
+			padding-bottom: 0
+		.slider
+			background-image: url(../img/img/bg_infrastructure_solutions_1366.svg)
+			h1
+				max-width: 558px
+			p
+				max-width: 593px
+	
+	.direction_information
+		&__content
+			justify-content: space-between
+		&__logo
+			img
+				width: 151px	
+			p
+				min-width: 178px
+				font-size: 16px
+				line-height: 28px
+		&__info p
+			max-width: 100%
+			font-weight: 300
+			font-size: 18px
+			line-height: 30px
+			color: #FFFFFF
+	
+			margin-left: 102px
+	
+	#outsourcing_and_service
+		.header
+			padding-bottom: 0
+		.slider
+			background-image: url(../img/img/bg_outsourcing_and_service_1366.svg)
+			h1
+				max-width: 650px
+			p
+				max-width: 626px
+	
+	#information_security
+		.header
+			padding-bottom: 0
+		.slider
+			background-image: url(../img/img/bg_information_security_1366.svg)
+			h1
+				max-width: 837px
+			p
+				max-width: 600px
+		.benefits
+			padding-bottom: 40px
+	
+	#infrastructure_solutions, 
+	#outsourcing_and_service,
+	#information_security
+		.clients
+			padding-bottom: 80px
+		.industry
+			padding-top: 80px
+	
+	.news_page
+		&__articles
+			&__item
+				max-width: 100%
+	
+	.contacts_company
+		margin-bottom: 80px
+		&__contacts
+			padding: 40px 80px 0 40px
+			h2
+				margin-bottom: 32px
+			a
+				margin-bottom: 32px
+	
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px)
+	.container
+		padding: 0 40px
+	.header .menu
+		display: none
+	.header
+		&__burger
+			display: block
+	.callback
+		&__formstack
+			position: relative
+			flex-direction: column
+		.personal
+			white-space: nowrap
+			left: auto
+			right: auto
+		.name, .email, .phone, .butt
+			margin: 0 auto
+			min-width: 345px
+		.butt button
+			min-width: 345px
+			text-align: center
+	.company_info
+		&__content
+			flex-direction: column
+			justify-content: start
+		&__img
+			margin-right: auto
+			img
+				width: 100%
+				max-width: 720px
+				text-align: left
+		h2
+			margin-top: 50px
+		&__text
+			margin: 0
+	.footer
+		&__top
+			flex-direction: column
+			.logo, .menu, .phone
+				margin: 40px auto 0 0
+			.logo
+				margin-top: 0
+		&__nav
+			flex-wrap: wrap
+			justify-content: flex-start
+			ul
+				width: 30%
+				&:last-child
+					margin: 60px 0 0 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1040px)
+	.slider
+		h1
+			font-size: 32px
+			line-height: 42px
+		p
+			max-width: 450px
+	
+	.nav_services_and_solution
+		&__content
+			flex-wrap: wrap
+		&__item
+			width: 48%
+			&:last-child
+				margin-top: 60px
+				margin-left: 0
+	
+	#infrastructure_solutions
+		.slider
+			h1
+				max-width: 450px
+			p
+				max-width: 450px
+	
+	#outsourcing_and_service
+		.slider
+			h1
+				max-width: 550px
+			p
+				max-width: 550px
+	
+	#information_security
+		.slider
+			h1
+				max-width: 640px
+			p
+				max-width: 540px
+	
+	.contacts_company
+		&__content
+			flex-direction: column
+		&__contacts
+			min-width: 100%
+			box-sizing: border-box
+		&__map
+			width: 100%
+			height: 100px
+			min-height: 720px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 960px)
+	.slider
+		background: center bottom no-repeat url(../img/img/bg_header_index_800.svg)
+	.benefits
+		&__item
+			max-width: 48%
+	.company_in_numbers
+		background: center bottom no-repeat url(../img/img/company_in_numbers_bg_960.svg) $blue
+		&__content
+			flex-wrap: wrap
+			justify-content: center
+		&__item
+			width: 33%
+	.footer
+		&__top
+			flex-direction: column
+			.logo, .menu, .phone
+				margin: 40px auto 0 0
+			.logo
+				margin-top: 0
+		&__nav
+			flex-wrap: wrap
+			justify-content: flex-start
+			ul
+				width: 48%
+				&:nth-child(3)
+					margin: 40px 0 0 0
+				&:last-child
+					margin: 40px 0 0 3.2%
+		&__bottom
+			flex-direction: column
+			p, a
+				margin-bottom: 40px
+	
+	#callback_popup, #free_consultation_popup
+		max-width: 500px
+		.form_image
+			display: none
+		.form_content
+			max-width: 100%
+		.mfp-close
+			color: #555
+	
+	#ok_popup
+		max-width: 500px
+		h2
+			font-size: 34px
+		p
+			font-size: 16px
+	
+	.infrastructure_services
+		&__item
+			max-width: 31.8%
+			margin-right: 2.3%
+			text-decoration: none
+			&:nth-child(4n + 4)
+				margin-right: 1.46%
+			&:nth-child(3n + 3)
+				margin-right: 0
+	.news_page
+		padding: 40px 0 60px
+		&__content
+			flex-direction: column
+		&__sidebar
+			margin-top: 80px
+			min-width: 100%
+			max-width: 100%
+			order: 2
+	
+	.about_company
+		padding-top: 40px
+		&__info
+			width: 100%
+			max-width: 100%
+		&__video
+			order: 3
+			width: 100%
+			max-width: 100%
+		&__in_numbers
+			padding-top: 0
+			margin-bottom: 80px
+	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 860px)
+	.header
+		padding: 16px 0 0
+	.phone
+		a:first-child
+			text-align: center
+			font-size: 18px
+		a:last-child
+			margin-top: 6px
+			text-align: center
+			font-size: 12px
+	.slider
+		background: center bottom no-repeat url(../img/img/bg_header_index_800.svg),  linear-gradient(65.35deg, #1E4ED1 0%, #2961D2 100%)
+	
+	.services
+		&__content
+			flex-wrap: wrap
+		&__item
+			max-width: 48%
+			margin: 0
+
+	.services, .industry, .benefits,
+	.company_in_numbers, .partners, 
+	.last_news, .company_info, .callback
+		h2
+			font-size: 28px
+			line-height: 36px
+	.last_news
+		&__content
+			display: none
+		.owl-carousel
+			margin-top: 28px
+			display: block
+	.partners
+		&__content
+			display: none
+		.owl-carousel
+			display: block
+	
+	.clients
+		&__item
+			padding: 45px 30px
+			
+	.nav_services_and_solution
+		padding: 36px 0 30px
+		&__item
+			.img
+				max-width: 600px
+			width: 100%
+			margin-left: 0
+			margin-top: 40px
+			&:last-child
+				margin-top: 40px
+			&:first-child
+				margin-top: 0
+	.clients
+		h2
+			font-size: 28px
+			line-height: 36px
+			margin-bottom: 40px
+		.owl-carousel .owl-dots
+			margin-top: 40px
+	
+	.question
+		&__img
+			display: none
+		&__content
+			max-width: 520px
+		&__form
+			width: 100%
+	
+	
+	#infrastructure_solutions
+		.slider
+			background-image: url(../img/img/bg_infrastructure_solutions_800.svg)
+			h1
+				max-width: 440px
+			p
+				max-width: 371px
+	
+	#outsourcing_and_service
+
+		.slider
+			background-image: url(../img/img/bg_outsourcing_and_service_800.svg)
+			h1
+				max-width: 535px
+			p
+				max-width: 367px
+	
+	#information_security
+		.slider
+			background-image: url(../img/img/bg_information_security_800.svg)
+			p
+				max-width: 410px
+	
+	.infrastructure_services
+		h2
+			font-size: 28px
+			line-height: 36px
+			margin: 0 0 10px
+		&__item
+			margin-top: 30px
+			max-width: 48.60%
+			margin-right: 2.7%
+			text-decoration: none
+			&:nth-child(3n + 3)
+				margin-right: 2.7%
+			&:nth-child(2n + 2)
+				margin-right: 0
+			&:nth-child(4n + 4)
+				margin-right: 0
+	.question
+		h2
+			font-size: 28px
+			line-height: 36px
+	#about_company
+		.partners
+			padding: 60px 0 20px
+		.last_news
+			padding-bottom: 80px
+		.clients
+			padding-bottom: 80px
+	
+	.page_404
+		height: 400px
+		background-size: 600px, 100%
+	
+@media only screen and (max-width : 760px)
+	.about_company
+		padding-top: 24px
+		&__info
+			h2
+				font-size: 22px
+				line-height: 34px
+				margin-bottom: 16px
+		&__in_numbers
+			padding-top: 12px
+			margin-bottom: 36px
+			h3
+				font-size: 32px
+				line-height: 40px
+			p
+				margin-top: 8px
+			&__item
+				margin-top: 24px
+		&__video
+			.img
+				margin-bottom: 12px
+			p
+				font-size: 14px
+				line-height: 24px
+	#about_company
+		.partners
+			padding: 36px 0 0
+		.clients
+			padding: 36px 0 36px
+		.last_news
+			padding-bottom: 36px
+		
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px)
+	.container
+		padding: 0 16px
+	.slider
+		background: linear-gradient(65.35deg, #1E4ED1 0%, #2961D2 100%)
+		h1
+			font-size: 26px
+			line-height: 34px
+			margin: 6px 0 16px
+		h2
+			font-size: 10px
+			line-height: 22px
+		p
+			font-size: 16px
+			line-height: 24px	
+		.button
+			font-size: 10px
+			line-height: 16px
+			padding: 16px 26px
+	.header
+		.logo p
+			display: none
+		.phone 
+			a:first-child
+				display: none
+			a:last-child
+				margin-top: 0
+	#my-menu .mm-listview
+		.button
+			font-size: 10px
+			line-height: 16px
+			padding: 16px 26px
+	
+	.footer
+		&__top
+			.menu
+				margin-top: 32px
+				width: 100%
+				text-align: center
+			ul
+				text-align: center
+				flex-direction: column
+			li
+				margin-top: 16px
+				margin-right: 0
+				&:first-child
+					margin-top: 0
+	
+	.direction_information
+		&__content
+			flex-direction: column
+			justify-content: none
+		&__logo
+			margin-right: auto
+			a img
+				margin-bottom: 16px
+				max-width: 107px
+			p
+				display: none
+		&__info p
+			font-size: 16px;
+			line-height: 28px
+			margin-left: 0
+	
+	#infrastructure_solutions,
+	#outsourcing_and_service,
+	#information_security
+		.slider
+			background-image: none
+	
+	#infrastructure_solutions
+		.slider
+			h1
+				max-width: 370px
+	
+	#outsourcing_and_service
+		.slider
+			h1
+				max-width: 440px
+			p
+				max-width: 500px
+	
+	#information_security
+		.slider
+			h1
+				max-width: 400px
+			p
+				max-width: 460px
+	.about_company
+		&__in_numbers
+			flex-direction: column
+			&__item
+				width: 100%
+		
+@media only screen and (max-width : 500px)	
+	.services
+		&__item
+			max-width: 100%
+			margin-top: 30px
+			&:first-child
+				margin-top: 0
+	.services, .industry, .benefits,
+	.company_in_numbers, .partners, 
+	.last_news, .company_info, .callback
+		h2
+			font-size: 22px
+			line-height: 34px
+			& + .button
+				display: none
+	.mobile__button
+		display: block
+
+	.industry
+		padding-top: 32px
+		.owl-carousel
+			margin-top: 24px
+			.owl-dots
+				margin-top: 16px
+	.benefits
+		padding: 32px 0
+		&__item
+			margin-top: 24px
+			max-width: 100%
+		h3
+			font-size: 18px
+			line-height: 26px
+		img
+			max-width: 64px
+	
+	.company_in_numbers
+		background-image: url(../img/img/company_in_numbers_bg_500.svg)
+		padding: 32px 0 102px
+		&__item
+			margin-top: 24px
+			width: 100%
+		h3
+			font-size: 32px
+			line-height: 40px
+	
+	.partners
+		padding: 32px 0
+	
+	.company_info
+		padding: 56px 0 48px
+		h2
+			margin-top: 16px 
+		p
+			margin: 12px 0 24px
+	
+	.callback
+		padding: 32px 0
+		h2
+			margin-bottom: 14px
+	
+	.footer
+		&__top
+			padding: 32px 0
+			.logo
+				width: 100%
+				display: flex
+				justify-content: space-between
+			.phone
+				width: 100%
+		&__nav
+			display: none
+		&__bottom
+			text-align: center
+			display: flex
+			padding: 32px 0
+			.socials
+				order: 1
+			a
+				font-size: 12px
+				line-height: 20px
+				margin-bottom: 24px
+				margin-top: 24px
+				order: 2
+			p
+				font-size: 12px
+				line-height: 20px
+				margin-top: 0
+				margin-bottom: 0
+				order: 3
+	.direction_information
+		padding: 36px 0
+					
+	#callback_popup, #free_consultation_popup
+		max-width: 300px
+		.form_content
+			padding: 32px 24px
+			input, button
+				max-width: 252px
+			h2
+				max-width: 240px
+				font-size: 26px
+				line-height: 36px
+				margin-bottom: 16px
+		.personal
+			max-width: 150px
+			br
+				display: block
+			span
+				position: relative
+				top: -8px
+				left: 22px
+	
+	#ok_popup
+		max-width: 300px
+		background-size: 600px
+		min-height: 500px
+		h2
+			padding-top: 60px
+			font-size: 28px
+			line-height: 38px
+		p
+			margin-top: 14px
+			font-size: 14px
+			line-height: 20px
+		br
+			display: none
+	
+	.nav_services_and_solution
+		h3
+			font-size: 18px
+			line-height: 28px
+		li a
+			font-size: 16px
+			line-height: 24px
+		li
+			margin-top: 14px
+	.clients
+		h2
+			font-size: 22px
+			line-height: 34px
+			margin-bottom: 24px
+	
+	.infrastructure_services
+		padding: 36px 0 36px
+		h2
+			font-size: 22px
+			line-height: 34px
+		&__item
+			min-width: 100%
+			margin-top: 24px
+	
+	#infrastructure_solutions, 
+	#outsourcing_and_service,
+	#information_security
+		.clients
+			padding-top: 20px
+			padding-bottom: 60px
+		.industry
+			padding-top: 60px
+	
+	.question
+		&__form
+			padding: 32px 32px
+			h2
+				font-size: 26px
+				line-height: 34px
+		
+	.news_page
+		padding: 36px 0
+		&__sidebar
+			margin-top: 36px
+			border: none
+			padding: 0
+		&__articles
+			&__item
+				margin-bottom: 36px
+				h2
+					font-size: 16px
+					line-height: 26px
+				p
+					padding: 8px 0 16px
+					font-size: 14px
+					line-height: 22px
+				.tags 
+					margin: 12px 0
+					a
+						font-size: 12px
+						line-height: 14px
+		.popular_item
+			margin-top: 16px
+		.popular_tags, .archive_publications
+			margin-top: 36px
+		.popular_tags
+			li
+				margin: 0 16px 8px 0
+	
+	.contacts_company
+		margin: 36px 0
+		&__contacts
+			padding: 24px 24px
+		&__map
+			min-height: 300px
+		h2
+			font-weight: bold
+			font-size: 22px
+			line-height: 34px
+	
+	.page_404
+		height: 200px 
+		background-size: 400px, 100% 
+		
+	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px)
+	.slider
+		padding: 24px 0 40px
+		h1
+			font-size: 22px
+			line-height: 34px
+		h2
+			font-size: 10px
+			line-height: 22px
+		p
+			font-size: 14px
+			line-height: 24px	
+		.button
+			margin: 24px 0 54px
+			font-size: 10px
+			line-height: 16px
+			padding: 16px 26px
+	.phone a span
+		display: none
+	
+	.callback
+		&__content
+			.phone, .name, .email, .butt .button
+				width: 100%
+				max-width: 282px
+				min-width: 0
+			.butt 
+				text-align: center
+				min-width: 272px
+			.personal
+				margin-top: 30px 
+				span
+					position: relative
+					top: -7px
+					left: 22px
+				br
+					display: block
+	.question
+		&__form
+			padding: 32px 16px
+			h2
+				font-size: 22px
+				line-height: 34px
+	
+	#callback_popup, #free_consultation_popup
+		position: relative
+		.personal
+			position: absolute
+			margin: 20px
+		.header_button
+				margin-top: 44px
+	
+	.nav_services_and_solution
+		padding-top: 36px
+		&__item
+			.img
+				min-height: 260px
+				background-size: 380px
+	
+	.news_page
+		&__articles
+			.img
+				min-height: 260px
+			.article_info
+				flex-wrap: wrap
+				.views, .comments
+					width: 20%
+				.views
+					margin: 0
+					order: 1
+				.comments
+					order: 2
+					margin-right: 10%
+				.button
+					margin-top: 16px
+					order: 3
+	
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

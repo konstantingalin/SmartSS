@@ -1,0 +1,24 @@
+<svg width="1920" height="442" viewBox="0 0 1920 442" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="442">
+<rect width="1920" height="442" fill="#C4C4C4"/>
+<rect width="1920" height="442" fill="url(#paint0_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M-112.91 564.554C264.88 -0.962355 1197.23 628.322 1850.8 239.934C2000.61 143.561 2093.5 22.4999 2093.5 22.4999L2120.84 799.102L-148.778 1019.15C-148.778 1019.15 -208.464 707.59 -112.91 564.554Z" fill="url(#paint1_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="442" x2="1267.72" y2="-714.816" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1E4ED1"/>
+<stop offset="1" stop-color="#2961D2"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="967.666" y1="121.168" x2="1027.86" y2="495.2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#53DAF4"/>
+<stop offset="1" stop-color="#41C2DB"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="1920" height="442" fill="white"/>
+</clipPath>
+</defs>
+</svg>
